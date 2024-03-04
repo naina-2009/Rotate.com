@@ -1,0 +1,55 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+input[type=file] {
+    display:inline-block;
+    font-family: Madimi One;
+    font-size: 30px;
+    background: rgb(168, 234, 168);
+    border: 2px solid green;
+    color: black;
+    }
+
+input[name="text"]
+{
+    font-family: Maven Pro;
+    font-size: 30px;
+    font-weight: bold;
+    background: #FFC300;
+    border: 2px solid rgb(73, 67, 1);
+    color: black;
+}
+
+input[type="submit"]
+{
+    font-family: Anta;
+    font-size: 30px;
+    color: white;
+    background: maroon;
+}
+
+img {
+    width:70%;
+    }
+
+h3{
+    color:green;
+    }
+
+h1{
+    font-family: Water Brush;
+    font-size: 85px;
+    }
+
+hr{
+    border: 5px solid black;
+    border-radius: 5px;
+    }
+
+h2
+{
+    font-family: Maven Pro;
+    font-size: 35px;
+}

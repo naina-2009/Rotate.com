@@ -1,0 +1,29 @@
+<!-- frontend code for image processing -->
+<html>
+<title> Image Processing </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&family=Madimi+One&family=Maven+Pro:wght@400..900&family=Water+Brush&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+<body>
+<center>
+
+<br>
+<h1>Rotate.com</h1><hr>
+<form method="post" action="/" enctype="multipart/form-data"><br><br>
+    <h2>Select an Image for Rotating</h2>
+    <input class="btn" type="file" name="file">
+    <br><br><br>
+    <input class="btn" name="text" placeholder="Degree of Rotation">
+    <br><br><br>
+    <input class="btn" type="submit" value="Submit">
+    <br><br><br>
+    <img src="{{ url_for('display_image', filename=filename) }}">
+</form>
+
+
+</center>
+</body>
+</html>
